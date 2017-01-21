@@ -3,7 +3,7 @@ import { storiesOf } from '@kadira/storybook'
 import Small from './Small'
 
 storiesOf('Small', module)
-  .add('Small', () => (
+  .add('default', () => (
     <Small>
       { 'This is a small component' }
     </Small>

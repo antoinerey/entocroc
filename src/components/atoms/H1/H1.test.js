@@ -1,11 +1,11 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Heading from './Heading'
+import H1 from './H1'
 
 it('renders without crashing', () => {
   shallow(
-    <Heading level={ 'h1' }>
+    <H1>
       { 'Hello World' }
-    </Heading>
+    </H1>
   )
 })

@@ -26,7 +26,7 @@ export const setup = () => {
   })
 
   css.global('body', {
-    fontFamily: "'Open Sans', Roboto, Arial, sans-serif",
+    fontFamily: "Open Sans, Roboto, Arial, sans-serif",
     background: colors.white,
   })
 }
