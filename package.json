@@ -1,0 +1,25 @@
+{
+  "name": "entocroc",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.7.0",
+    "prettier": "^0.0.7",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.8.5",
+    "@kadira/storybook": "^2.21.0"
+  },
+  "dependencies": {
+    "glamor": "^2.20.20",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test --env=jsdom",
+    "eject": "NODE_PATH=src react-scripts eject",
+    "storybook": "NODE_PATH=src start-storybook -p 9009 -s public",
+    "build-storybook": "NODE_PATH=src build-storybook -s public"
+  }
+}
