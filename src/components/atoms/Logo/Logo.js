@@ -2,13 +2,11 @@ import React, { PropTypes } from 'react'
 import styled from 'utils/styled'
 import logo from './logo.svg'
 
-const Container = styled('div', ({ position }) => {
-  const angle = position === 'left' ? '-15deg' : '15deg'
-
-  return {
-    opacity: 0.15,
-    transform: `rotate(${ angle })`,
-  }
+const Container = styled('div', {
+  opacity: 0.15,
+  transform: props => props.position === 'left'
+    ? 'rotate(-15deg)'
+    : 'rotate(15deg)'
 }, {
   position: false
 })
