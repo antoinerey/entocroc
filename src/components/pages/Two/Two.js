@@ -54,7 +54,7 @@ const texts = [
 ]
 
 const Two = () => (
-  <Template title={ 'Decouvez-nos bouchees' }>
+  <Template title={ 'Decouvez-nos bouchees' } id={ 'notre-produit' }>
     <Inner>
       <div>
         <StyledImage src={ image } />

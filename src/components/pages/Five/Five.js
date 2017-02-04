@@ -22,7 +22,7 @@ const StyledSocials = styled(Socials, {
 })
 
 const Five = () => (
-  <Template title={ 'Retrouvez-nous, nous sommes partout !' }>
+  <Template title={ 'Retrouvez-nous, nous sommes partout !' }  id={ 'contact' }>
     <StyledLogo position={ 'left' } />
     <StyledSocials />
     <StyledFooter />

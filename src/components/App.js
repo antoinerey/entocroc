@@ -1,4 +1,5 @@
 import React from 'react'
+import One from 'components/pages/One'
 import Two from 'components/pages/Two'
 import Three from 'components/pages/Three'
 import Four from 'components/pages/Four'
@@ -9,6 +10,7 @@ const Container = styled('div')
 
 const App = () => (
   <Container>
+    <One />
     <Two />
     <Three />
     <Four />

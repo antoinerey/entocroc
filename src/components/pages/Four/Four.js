@@ -11,7 +11,7 @@ const StyledLogo = styled(Logo, {
 
 // TODO: Ajouter les membres de l'équipe
 const Four = () => (
-  <Template title={ 'Qui se cache derriere tout ça ?' }>
+  <Template title={ 'Qui se cache derriere tout ça ?' }  id={ 'notre-equipe' }>
     <StyledLogo position={ 'right' } />
   </Template>
 )

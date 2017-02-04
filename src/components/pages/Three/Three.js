@@ -11,7 +11,7 @@ const StyledLogo = styled(Logo, {
 
 // TODO: Ajouter les onglets
 const Three = () => (
-  <Template title={ 'Avec nous, initiez-vous a la consommation d\'insectes' }>
+  <Template title={ 'Avec nous, initiez-vous a la consommation d\'insectes' }  id={ 'nos-valeurs' }>
     <StyledLogo position={ 'left' } />
   </Template>
 )
