@@ -1,8 +1,7 @@
 import styled from 'utils/styled'
 
 const Container = styled('div', {
-  width: '60rem',
-  maxWidth: '100%',
+  maxWidth: '60rem',
   margin: '0 auto',
 })
 

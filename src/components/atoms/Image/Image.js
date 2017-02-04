@@ -14,9 +14,9 @@ const Container = styled('div', {
   overflow: 'hidden',
 })
 
-const Image = (props) => (
-  <Container>
-    <Img { ...props } />
+const Image = ({ src, ...props }) => (
+  <Container { ...props }>
+    <Img src={ src } />
   </Container>
 )
 

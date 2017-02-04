@@ -22,6 +22,7 @@ export const fonts = {
 
 export const setup = () => {
   css.global('*', {
+    boxSizing: 'border-box',
     color: colors.black,
   })
 

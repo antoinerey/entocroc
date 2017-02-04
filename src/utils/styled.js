@@ -22,7 +22,7 @@ const filterProps = (props, rules) => {
     .reduce((obj, propName) => ({ ...obj, [propName]: props[propName] }), {})
 }
 
-const styled = (Element, styles, propsToPass = {}) => {
+const styled = (Element, styles = {}, propsToPass = {}) => {
   class Component extends React.Component {
     render() {
       const { props } = this

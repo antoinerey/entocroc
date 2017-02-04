@@ -26,8 +26,8 @@ const socials = [
   { network: 'email', bottom: 0, right: 0, href: 'mailto:contact@entocroc.com' },
 ]
 
-const Component = () => (
-  <Container>
+const Component = (props) => (
+  <Container { ...props }>
     { socials.map(social => <StyledSocial { ...social } /> ) }
   </Container>
 )
