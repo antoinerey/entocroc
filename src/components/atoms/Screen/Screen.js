@@ -3,6 +3,7 @@ import { colors } from 'theme'
 
 const Screen = styled('div', {
   height: '100vh',
+  width: '100vw',
   overflow: 'hidden',
 
   ':not(:last-of-type)': {

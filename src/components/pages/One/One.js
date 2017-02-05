@@ -31,7 +31,7 @@ const One = () => (
   <Screen>
     <Navigation />
     <Inner>
-      <H1>Entocroc</H1>
+      <H1>ENTOCROC</H1>
       <StyledH2>Croquez la vie autrement</StyledH2>
       <ButtonContainer>
         <Button href={ 'https://amazon.fr' }>

@@ -42,7 +42,7 @@ Social.propTypes = {
   network: PropTypes.oneOf([
     'facebook',
     'twitter',
-    'instagram',
+    'youtube',
     'email',
   ]).isRequired,
 }

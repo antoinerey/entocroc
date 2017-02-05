@@ -5,9 +5,13 @@ export const colors = {
   grey: '#848484',
   black: '#374553',
 
+  yellow: '#FFDB41',
+  orange: '#FCAB13',
+  red: '#D12323',
+
   facebook: '#3B5998',
   twitter: '#1DA1F2',
-  instagram: '#D82D7B',
+  youtube: '#CC181E',
   email: '#E2AE03',
 }
 

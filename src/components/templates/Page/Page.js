@@ -8,6 +8,7 @@ const StyledContainer = styled(Container, {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
+  width: '100%',
   flex: 1,
 })
 

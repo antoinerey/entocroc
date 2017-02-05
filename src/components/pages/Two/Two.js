@@ -19,10 +19,6 @@ const StyledH3 = styled(H3, {
   paddingBottom: '1rem',
 })
 
-const StyledImage = styled(Image, {
-  maxWidth: '25rem',
-})
-
 const StyledInner = styled(Inner, {
   flexDirection: 'column',
 })
@@ -57,7 +53,7 @@ const Two = () => (
   <Template title={ 'Decouvez-nos bouchees' } id={ 'notre-produit' }>
     <Inner>
       <div>
-        <StyledImage src={ image } />
+        <Image src={ image } />
       </div>
       <StyledInner>
         { texts.map(({ body, title }) => (

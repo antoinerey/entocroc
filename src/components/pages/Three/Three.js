@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from 'components/atoms/Logo'
 import Template from 'components/templates/Page'
+import Tabs from 'components/atoms/Tabs'
 import styled from 'utils/styled'
 
 const StyledLogo = styled(Logo, {
@@ -9,9 +10,9 @@ const StyledLogo = styled(Logo, {
   top: '1rem',
 })
 
-// TODO: Ajouter les onglets
 const Three = () => (
   <Template title={ 'Avec nous, initiez-vous a la consommation d\'insectes' }  id={ 'nos-valeurs' }>
+    <Tabs />
     <StyledLogo position={ 'left' } />
   </Template>
 )

@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import Container from 'components/atoms/Container'
 import styled from 'utils/styled'
 import { colors } from 'theme'
