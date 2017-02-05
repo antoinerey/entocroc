@@ -2,7 +2,7 @@ import styled from 'utils/styled'
 import { colors } from 'theme'
 
 const Screen = styled('div', {
-  height: '100vh',
+  minHeight: '100vh',
   width: '100vw',
   overflow: 'hidden',
 

@@ -7,7 +7,7 @@ import styled from 'utils/styled'
 import { colors, fonts } from 'theme'
 
 const Content = styled(Container, {
-  paddingTop: '9rem',
+  paddingTop: '6rem',
 })
 
 const Outer = styled(Container, {
@@ -18,7 +18,7 @@ const Outer = styled(Container, {
 
 const TabsContainer = styled(Container, {
   position: 'absolute',
-  top: '3rem',
+  top: 0,
   left: 0,
   width: '100%',
 })

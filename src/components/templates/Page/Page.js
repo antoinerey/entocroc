@@ -20,6 +20,7 @@ const StyledScreen = styled(Screen, {
 })
 
 const Title = styled(H2, {
+  paddingBottom: '4rem',
   textAlign: 'center',
 })
 

@@ -50,7 +50,7 @@ const texts = [
 ]
 
 const Two = () => (
-  <Template title={ 'Decouvez-nos bouchees' } id={ 'notre-produit' }>
+  <Template title={ 'Decouvrez-nos bouchees' } id={ 'notre-produit' }>
     <Inner>
       <div>
         <Image src={ image } />

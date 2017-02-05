@@ -6,6 +6,7 @@ const Container = styled('div', {
   position: 'relative',
   width: '43.625rem',
   height: '21.875rem',
+  marginBottom: '4rem',
 })
 
 const StyledSocial = styled(Social, {

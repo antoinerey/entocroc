@@ -4,7 +4,7 @@ import styled from 'utils/styled'
 
 const Container = styled('footer', {
   width: '100%',
-  padding: '1rem',
+  padding: '4rem 1rem 1rem',
   textAlign: 'center',
 })
 

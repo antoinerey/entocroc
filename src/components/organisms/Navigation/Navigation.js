@@ -2,22 +2,21 @@ import React from 'react'
 import Bar from 'components/atoms/NavBar'
 import Divider from 'components/atoms/NavBarDivider'
 import Item from 'components/atoms/NavBarItem'
-import Image from 'components/atoms/Image'
 import styled from 'utils/styled'
 import cake from './cake.svg'
-import { colors } from 'theme'
 
 const Group = styled('div', {
   display: 'flex',
   alignItems: 'center',
 })
 
-const StyledImage = styled(Image, {
+const ImageContainer = styled('div', {
   width: '8rem',
   height: '8rem',
-  border: 'none',
-  boxShadow: 'none',
-  background: colors.white,
+})
+
+const Image = styled('img', {
+  width: '100%',
 })
 
 const Navigation = () => (
@@ -28,9 +27,9 @@ const Navigation = () => (
       <Item label={ 'Nos valeurs' } href={ '#nos-valeurs' } />
     </Group>
 
-    <Group>
-      <StyledImage src={ cake } />
-    </Group>
+    <ImageContainer>
+      <Image src={ cake } />
+    </ImageContainer>
 
     <Group>
       <Item label={ 'Notre equipe' } href={ '#notre-equipe' } />

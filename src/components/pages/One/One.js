@@ -15,6 +15,7 @@ const Inner = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
   height: 'calc(100% - 8rem)',
+  flex: 1,
 })
 
 const StyledH2 = styled(H2, {
@@ -27,20 +28,25 @@ const StyledLogo = styled(Logo, {
   bottom: '-3rem',
 })
 
+const StyledScreen = styled(Screen, {
+  display: 'flex',
+  flexDirection: 'column',
+})
+
 const One = () => (
-  <Screen>
+  <StyledScreen>
     <Navigation />
     <Inner>
       <H1>ENTOCROC</H1>
       <StyledH2>Croquez la vie autrement</StyledH2>
       <ButtonContainer>
-        <Button href={ 'https://amazon.fr' }>
+        <Button href={ 'https://amazon.com' }>
           Osez !
         </Button>
       </ButtonContainer>
     </Inner>
     <StyledLogo position={ 'left' } />
-  </Screen>
+  </StyledScreen>
 )
 
 export default One
