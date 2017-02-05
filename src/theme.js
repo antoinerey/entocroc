@@ -12,6 +12,7 @@ export const colors = {
   facebook: '#3B5998',
   twitter: '#1DA1F2',
   youtube: '#CC181E',
+  pinterest: '#BB0F23',
   email: '#E2AE03',
 }
 

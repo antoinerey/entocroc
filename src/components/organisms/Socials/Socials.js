@@ -4,7 +4,7 @@ import styled from 'utils/styled'
 
 const Container = styled('div', {
   position: 'relative',
-  width: '37.5rem',
+  width: '43.625rem',
   height: '21.875rem',
 })
 
@@ -22,8 +22,9 @@ const StyledSocial = styled(Social, {
 const socials = [
   { network: 'facebook', top: 0, left: 0, href: 'https://facebook.com' },
   { network: 'twitter', bottom: 0, left: '9.375rem', href: 'https://twitter.com' },
-  { network: 'youtube', top: 0, right: '9.375rem', href: 'https://youtube.com' },
-  { network: 'email', bottom: 0, right: 0, href: 'mailto:contact@entocroc.com' },
+  { network: 'youtube', top: 0, right: '15.5625rem', href: 'https://youtube.com' },
+  { network: 'email', bottom: 0, right: '6.25rem', href: 'mailto:entocroc@gmail.com' },
+  { network: 'pinterest', top: 0, right: 0, href: 'https://pinterest.com' },
 ]
 
 const Component = (props) => (

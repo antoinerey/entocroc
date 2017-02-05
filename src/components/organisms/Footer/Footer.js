@@ -11,7 +11,7 @@ const Container = styled('footer', {
 const Component = (props) => (
   <Container { ...props }>
     <Small>{ 'Copyright © ENTOCROC 2017 • 01 23 45 67 89' }</Small>
-    <Small>{ 'Avenue de l’Agrobiopole. 31326 Auzeville-Tolosane' }</Small>
+    <Small>{ 'Avenue de l’Agrobiopole 31326 Auzeville-Tolosane' }</Small>
   </Container>
 )
 

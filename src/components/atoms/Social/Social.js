@@ -43,6 +43,7 @@ Social.propTypes = {
     'facebook',
     'twitter',
     'youtube',
+    'pinterest',
     'email',
   ]).isRequired,
 }
