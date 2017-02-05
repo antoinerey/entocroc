@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
     "enzyme": "^2.7.0",
-    "prettier": "^0.0.7",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.8.5",
-    "@kadira/storybook": "^2.21.0"
+    "react-scripts": "0.8.5"
   },
   "dependencies": {
     "glamor": "^2.20.20",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "serve": "^3.2.2"
   },
   "scripts": {
+    "now-start": "serve ./build --single",
     "start": "NODE_PATH=src react-scripts start",
     "build": "NODE_PATH=src react-scripts build",
     "test": "NODE_PATH=src react-scripts test --env=jsdom",
