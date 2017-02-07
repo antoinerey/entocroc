@@ -24,7 +24,7 @@ const StyledH2 = styled(H2, {
 
 const StyledLogo = styled(Logo, {
   position: 'absolute',
-  left: '-2rem',
+  left: '-5rem',
   bottom: '-3rem',
 })
 
@@ -33,20 +33,29 @@ const StyledScreen = styled(Screen, {
   flexDirection: 'column',
 })
 
-const One = () => (
-  <StyledScreen>
-    <Navigation />
-    <Inner>
-      <H1>ENTOCROC</H1>
-      <StyledH2>Croquez la vie autrement</StyledH2>
-      <ButtonContainer>
-        <Button href={ 'https://amazon.com' }>
-          Osez !
-        </Button>
-      </ButtonContainer>
-    </Inner>
-    <StyledLogo position={ 'left' } />
-  </StyledScreen>
-)
+class One extends React.Component {
+
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    return (
+      <StyledScreen>
+        <Navigation />
+        <Inner>
+          <H1>ENTOCROC</H1>
+          <StyledH2>Croquez la vie autrement</StyledH2>
+          <ButtonContainer>
+            <Button href={ 'https://amazon.com' }>
+              Osez !
+            </Button>
+          </ButtonContainer>
+        </Inner>
+        <StyledLogo position={ 'left' } />
+      </StyledScreen>
+    )
+  }
+}
 
 export default One

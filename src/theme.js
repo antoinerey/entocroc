@@ -21,7 +21,7 @@ export const fonts = {
     fontFamily: 'Bazar',
     fontStyle: 'normal',
     fontWeight: 400,
-    src: `${ process.env.PUBLIC_URL }/fonts/Bazar.ttf`,
+    src: `local('Bazar'), url(${ process.env.PUBLIC_URL }/fonts/Bazar.ttf)`,
   }),
 }
 

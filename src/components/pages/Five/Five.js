@@ -13,7 +13,7 @@ const StyledFooter = styled(Footer, {
 
 const StyledLogo = styled(Logo, {
   position: 'absolute',
-  left: '-2rem',
+  left: '-5rem',
   bottom: '-3rem',
 })
 
@@ -21,12 +21,21 @@ const StyledSocials = styled(Socials, {
   transform: 'translateX(15rem)',
 })
 
-const Five = () => (
-  <Template title={ 'Retrouvez-nous, nous sommes partout !' }  id={ 'contact' }>
-    <StyledLogo position={ 'left' } />
-    <StyledSocials />
-    <StyledFooter />
-  </Template>
-)
+class Five extends React.Component {
+
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    return (
+      <Template title={ 'Retrouvez-nous, nous sommes partout !' }  id={ 'contact' }>
+        <StyledLogo position={ 'left' } />
+        <StyledSocials />
+        <StyledFooter />
+      </Template>
+    )
+  }
+}
 
 export default Five

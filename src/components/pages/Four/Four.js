@@ -20,7 +20,7 @@ const members = [
 
 const StyledLogo = styled(Logo, {
   position: 'absolute',
-  right: '-2rem',
+  right: '-5rem',
   bottom: '-3rem',
 })
 
@@ -28,13 +28,22 @@ const Inner = styled('div', {
   textAlign: 'center',
 })
 
-const Four = () => (
-  <Template title={ 'Qui se cache derriere tout ça ?' }  id={ 'notre-equipe' }>
-    <Inner>
-      { members.map(member => <Member { ...member } /> ) }
-    </Inner>
-    <StyledLogo position={ 'right' } />
-  </Template>
-)
+class Four extends React.Component {
+
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    return (
+      <Template title={ 'Qui se cache derriere tout ça ?' }  id={ 'notre-equipe' }>
+        <Inner>
+          { members.map(member => <Member { ...member } /> ) }
+        </Inner>
+        <StyledLogo position={ 'right' } />
+      </Template>
+    )
+  }
+}
 
 export default Four

@@ -25,7 +25,7 @@ const StyledInner = styled(Inner, {
 
 const StyledLogo = styled(Logo, {
   position: 'absolute',
-  right: '-2rem',
+  right: '-5rem',
   bottom: '-3rem',
 })
 
@@ -49,26 +49,35 @@ const texts = [
   },
 ]
 
-const Two = () => (
-  <Template title={ 'Decouvrez-nos bouchees' } id={ 'notre-produit' }>
-    <Inner>
-      <div>
-        <Image src={ image } />
-      </div>
-      <StyledInner>
-        { texts.map(({ body, title }) => (
-          <Text>
-            <StyledH3>{ title }</StyledH3>
-            <Paragraph>{ body }</Paragraph>
-          </Text>
-        )) }
-        <Button href={ 'https://amazon.com' }>
-          Par ici !
-        </Button>
-      </StyledInner>
-    </Inner>
-    <StyledLogo position={ 'right' } />
-  </Template>
-)
+class Two extends React.Component {
+
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    return (
+      <Template title={ 'Decouvrez-nos bouchees' } id={ 'notre-produit' }>
+        <Inner>
+          <div>
+            <Image src={ image } />
+          </div>
+          <StyledInner>
+            { texts.map(({ body, title }) => (
+              <Text>
+                <StyledH3>{ title }</StyledH3>
+                <Paragraph>{ body }</Paragraph>
+              </Text>
+            )) }
+            <Button href={ 'https://amazon.com' }>
+              Par ici !
+            </Button>
+          </StyledInner>
+        </Inner>
+        <StyledLogo position={ 'right' } />
+      </Template>
+    )
+  }
+}
 
 export default Two

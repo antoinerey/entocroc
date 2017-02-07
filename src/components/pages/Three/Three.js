@@ -6,7 +6,7 @@ import styled from 'utils/styled'
 
 const StyledLogo = styled(Logo, {
   position: 'absolute',
-  left: '-2rem',
+  left: '-5rem',
   top: '1rem',
 })
 

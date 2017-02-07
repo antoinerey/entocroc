@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
 import styled from 'utils/styled'
-import logo from './logo.svg'
+import logo from './Logo.png'
 
 const Container = styled('div', {
-  width: '35rem',
+  width: '40rem',
   opacity: 0.15,
   transform: props => props.position === 'left'
     ? 'rotate(-15deg)'
