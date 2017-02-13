@@ -37,7 +37,7 @@ const Text = styled('div', {
 const texts = [
   {
     title: 'Un gateau croquant a base de farine d\'insectes',
-    body: 'Consommez des insectes sans vous en appercevoir avec notre délicieuse préparation à base de vers de farine français !',
+    body: 'Consommez des insectes sans vous en apercevoir avec notre délicieuse préparation à base de vers de farine français !',
   },
   {
     title: 'Un praline gourmand',
