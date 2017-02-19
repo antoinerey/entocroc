@@ -21,9 +21,9 @@ const StyledSocial = styled(Social, {
 })
 
 const socials = [
-  { network: 'facebook', top: 0, left: 0, href: 'https://facebook.com' },
+  { network: 'facebook', top: 0, left: 0, href: 'https://www.facebook.com/entocroc' },
   { network: 'twitter', bottom: 0, left: '9.375rem', href: 'https://twitter.com' },
-  { network: 'youtube', top: 0, right: '15.5625rem', href: 'https://youtube.com' },
+  { network: 'youtube', top: 0, right: '15.5625rem', href: 'https://www.youtube.com/channel/UC_lUklAfl3K4PIeCt-0ZBTg' },
   { network: 'email', bottom: 0, right: '6.25rem', href: 'mailto:entocroc@gmail.com' },
   { network: 'pinterest', top: 0, right: 0, href: 'https://pinterest.com' },
 ]
